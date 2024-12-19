@@ -30,10 +30,5 @@ namespace SampleApi.Controllers
             .ToArray();
         }
 
-          [HttpGet(Name = "GetTest")]
-        public string GetTest()
-        {
-            return "Container App Deployment is working";
-        }
     }
 }
